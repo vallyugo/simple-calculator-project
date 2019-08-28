@@ -35,3 +35,11 @@ button {
     border: none;
     color: white;
 }
+
+#equalbtn {
+     background-color: black;
+     color: white;
+     padding: 140px 0px 140px 0px;
+     text-align: center;
+     font-size: large;
+}
