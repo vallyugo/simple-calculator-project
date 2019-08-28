@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <table border="1" cellspacing="0">
+            <tr style="background-color: whitesmoke">
+                <td colspan="4" id="result">0</td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="resolve(this)">+</button></td>
+                <td><button type="button" onclick="resolve(this)">-</button></td>
+                <td><button type="button" onclick="resolve(this)">/</button></td>
+                <td><button type="button" onclick="resolve(this)">*</button></td>
+
+            </tr>
+
+            <tr>
+                <td><button type="button" onclick="resolve(this)">7</button></td>
+                <td><button type="button" onclick="resolve(this)">8</button></td>
+                <td><button type="button" onclick="resolve(this)">9</button></td>
+                <td rowspan="4" style="background-color: black;"><button type="button"
+                        onclick="resolve(this)">=</button>
+                </td>
+
+            </tr>
+            <tr>
+                <td><button type="button" onclick="resolve(this)">4</button></td>
+                <td><button type="button" onclick="resolve(this)">5</button></td>
+                <td><button type="button" onclick="resolve(this)">6</button></td>
+
+            </tr>
+            <tr>
+                <td><button type="button" onclick="resolve(this)">1</button></td>
+                <td><button type="button" onclick="resolve(this)">2</button></td>
+                <td><button type="button" onclick="resolve(this)">3</button></td>
+
+            </tr>
+
+            <tr>
+                <td><button type="button" onclick="resolve(this)">0</button></td>
+                <td><button type="button" onclick="resolve(this)">.</button></td>
+                <td><button type="button" onclick="resolve(this)">C</button></td>
+
+            </tr>
+        </table>
+    </div>
+    <script src="add.js"></script>
+</body>
+
+</html>
